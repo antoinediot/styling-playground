@@ -41,7 +41,7 @@ function About() {
                     <ul class="list-group">
 
                         <li class="list-group-item">
-                            <p>Eliminate the duplicate `.page-content` selector in the scaffolding file.</p>
+                            <p>Eliminate the duplicate <code>.page-content</code> selector in the scaffolding file.</p>
                             <p><em>Use nesting.</em></p>
                             <p><a target="_blank" href="https://sass-lang.com/documentation/style-rules#nesting">SASS Nesting</a></p>
                         </li>
@@ -50,6 +50,18 @@ function About() {
                             <p>Use variables to set the background of the navigation section background and page title background.</p>
                             <p><em>Create new variables file and add variables.</em></p>
                             <p><a target="_blank" href="https://sass-lang.com/documentation/variables">SASS Variables</a></p>
+                        </li>
+
+                        <li class="list-group-item">
+                            <p>Set the color of the page title background as a function of the navigation section background.</p>
+                            <p><em>Set the variable using SASS color scale function.</em></p>
+                            <p><a target="_blank" href="https://sass-lang.com/documentation/modules/color">SASS Color Module</a></p>
+                        </li>
+
+                        <li class="list-group-item">
+                            <p>Consolidate the padding definition for the navigation section and the page title.</p>
+                            <p><em>Create a new mixin file and add a mixin.</em></p>
+                            <p><a target="_blank" href="https://sass-lang.com/documentation/at-rules/mixin">SASS Mixins</a></p>
                         </li>
 
                         <li class="list-group-item">
@@ -66,6 +78,12 @@ function About() {
                         <li class="list-group-item">
                             <p>Make the components more rounded.</p>
                             <p><em>Override the bootstrap variable specifies border radius for components.</em></p>
+                        </li>
+
+                        <li class="list-group-item">
+                            <p>Set the bottom margin of headings to be 3/4 the size of the standard spacer as defined by Bootstrap.</p>
+                            <p><em>Override the heading margin bottom variable using SASS numeric operators to compute the value.</em></p>
+                            <p><a target="_blank" href="https://sass-lang.com/documentation/operators/numeric">SASS Numeric Operators</a></p>
                         </li>
                     </ul>
                 </article>
