@@ -2,7 +2,6 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link,
   NavLink,
   Switch
 } from "react-router-dom";
@@ -33,13 +32,15 @@ function App() {
           </ul>
         </nav>
 
-        <React.Fragment>
-          <Switch>
-            <Route exact path={'/'} component={About} />
-            <Route exact path={'/content'} component={SampleContent} />
-            <Route exact path={'/components'} component={SampleComponents} />
-          </Switch>
-        </React.Fragment>
+        <div class="page-content">
+          <React.Fragment>
+            <Switch>
+              <Route exact path={'/'} component={About} />
+              <Route exact path={'/content'} component={SampleContent} />
+              <Route exact path={'/components'} component={SampleComponents} />
+            </Switch>
+          </React.Fragment>
+        </div>
 
       </div>
 
