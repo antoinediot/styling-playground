@@ -1,5 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
+// Variables
+@import "./variables";
+
+// Mixins
+@import "./mixins";
+
 // Layout rules
 @import "./scaffolding";
 

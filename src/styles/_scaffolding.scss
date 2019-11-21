@@ -1,15 +1,17 @@
 .global-nav {
-    padding: 1rem 3rem;
+    @include section-padding;
 
-    background-color: #eee;
+    background-color: $global-nav-bg;
 }
+
 .page-content {
     padding: 0 0 3rem;
-}
 
-.page-content h1.page-title {
-    padding: 1rem 3rem;
-    margin-bottom: 3rem;
+    h1.page-title {
+        @include section-padding;
 
-    background-color: #f8f8f8;
+        margin-bottom: 3rem;
+    
+        background-color: $page-title-bg;
+    }
 }
