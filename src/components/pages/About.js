@@ -72,7 +72,7 @@ function About() {
 
                         <li class="list-group-item">
                             <p>Eliminate inclusion of unused Bootstrap components.</p>
-                            <p><em>Use and update a copy bootstrap root scss file</em></p>
+                            <p><em>Use and update a copy bootstrap root SCSS file</em></p>
                         </li>
 
                         <li class="list-group-item">
@@ -84,6 +84,11 @@ function About() {
                             <p>Set the bottom margin of headings to be 3/4 the size of the standard spacer as defined by Bootstrap.</p>
                             <p><em>Override the heading margin bottom variable using SASS numeric operators to compute the value.</em></p>
                             <p><a target="_blank" href="https://sass-lang.com/documentation/operators/numeric">SASS Numeric Operators</a></p>
+                        </li>
+
+                        <li class="list-group-item">
+                            <p>Create a new stylesheet for a dark theme.</p>
+                            <p><em>Copy site root SCSS file and update variables to apply inverted colors.</em></p>
                         </li>
                     </ul>
                 </article>
