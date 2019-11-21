@@ -61,7 +61,7 @@ function About() {
 
                         <li class="list-group-item">
                             <p>Set the color of the page title background as a function of the navigation section background.</p>
-                            <p><em>Set the variable using SASS color scale function.</em></p>
+                            <p><em>Set the variable using SASS <code>lighten</code> function.</em></p>
                             <p><a target="_blank" href="https://sass-lang.com/documentation/modules/color">SASS Color Module</a></p>
                         </li>
 
