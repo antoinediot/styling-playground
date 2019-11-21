@@ -1,0 +1,17 @@
+.sample-page {
+
+    $sample-accent-color: $gray-200;
+    $sample-heading-vertical-padding: .25em;
+    $sample-heading-horizontal-padding: 10px;
+    $sample-heading-vertical-margin: 2rem;
+
+
+    .sample-content-heading {
+        padding: $sample-heading-vertical-padding $sample-heading-horizontal-padding;
+        margin-left: -$sample-heading-horizontal-padding;
+        margin-right: -$sample-heading-horizontal-padding;
+        margin-bottom: $sample-heading-vertical-margin;
+
+        background-color: $sample-accent-color;
+    }
+}

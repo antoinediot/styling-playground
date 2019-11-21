@@ -15,11 +15,13 @@ function SampleContent() {
 
             <div class="container">
 
-                <article>
+                <article class="sample-page">
 
                     <div class="row">
 
                         <div class="col-md-6">
+                            <h2 class="sample-content-heading">Typography</h2>
+
                             <h1>Heading 1 (h1)</h1>
                             <p>Reserved for page headings. Do not use in content.</p>
 
@@ -40,6 +42,8 @@ function SampleContent() {
                         </div>
 
                         <div class="col-md-6">
+                            <h2 class="sample-content-heading">Tables</h2>
+
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
@@ -66,6 +70,26 @@ function SampleContent() {
                                     </tr>
                                 </tbody>
                             </table>
+                        </div>
+
+                    </div>
+                    
+                    <div class="row">
+
+                        <div class="col-md-6">
+
+                            <h2 class="sample-content-heading">List Group</h2>
+
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </article>
