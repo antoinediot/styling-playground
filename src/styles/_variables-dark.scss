@@ -1,0 +1,80 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem;
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                   $black !default;
+$body-color:                $gray-300 !default;
+
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+$border-color:                $gray-600;
+
+$border-radius:               1rem;
+$border-radius-lg:            1rem;
+$border-radius-sm:            .75rem;
+
+$headings-margin-bottom:      $spacer * .75;
+
+$global-nav-bg: #eee;
+$page-title-bg: lighten($global-nav-bg, 4%);
+
+
+// Tables
+//
+// Customizes the `.table` component with basic values, each used across all table variations.
+
+$table-accent-bg:             $gray-900;
+
+
+// Cards
+
+$card-cap-bg:                       $gray-900;
+$card-bg:                           $gray-800;
+
+
+// List group
+
+$list-group-bg:                     $black;
+$list-group-border-color:           $border-color;
+
+
+// Scaffolding
+
+$global-nav-bg: $gray-800;
+$page-title-bg: $gray-900;
+
+// Sample
+
+$sample-accent-color: $gray-900;

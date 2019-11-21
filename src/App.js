@@ -6,7 +6,7 @@ import {
   Switch
 } from "react-router-dom";
 
-import './styles/App.scss';
+import './styles/App-dark.scss';
 
 import About from './components/pages/About';
 import SampleComponents from './components/pages/SampleComponents';
