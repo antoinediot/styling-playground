@@ -41,6 +41,13 @@ function About() {
                     <ul class="list-group">
 
                         <li class="list-group-item">
+                            <p>Remove the bottom margin of the last element in the list group items.</p>
+                            <p><em>Use the <code>:list-child</code> selector and the <code>element>element</code> selector.</em></p>
+                            <p><a target="_blank" href="https://www.w3schools.com/cssref/sel_last-child.asp">:last-child selector</a></p>
+                            <p><a target="_blank" href="https://www.w3schools.com/cssref/sel_element_gt.asp">element>element selector</a></p>
+                        </li>
+
+                        <li class="list-group-item">
                             <p>Eliminate the duplicate <code>.page-content</code> selector in the scaffolding file.</p>
                             <p><em>Use nesting.</em></p>
                             <p><a target="_blank" href="https://sass-lang.com/documentation/style-rules#nesting">SASS Nesting</a></p>
