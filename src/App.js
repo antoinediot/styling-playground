@@ -33,17 +33,16 @@ function App() {
           </ul>
         </nav>
 
-        <div class="container">
+        <React.Fragment>
+          <Switch>
+            <Route exact path={'/'} component={About} />
+            <Route exact path={'/content'} component={SampleContent} />
+            <Route exact path={'/components'} component={SampleComponents} />
+          </Switch>
+        </React.Fragment>
 
-          <React.Fragment>
-            <Switch>
-              <Route exact path={'/'} component={About} />
-              <Route exact path={'/content'} component={SampleContent} />
-              <Route exact path={'/components'} component={SampleComponents} />
-            </Switch>
-          </React.Fragment>
-        </div>
       </div>
+
     </Router>
   );
 }
