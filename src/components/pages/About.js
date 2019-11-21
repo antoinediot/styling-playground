@@ -15,29 +15,58 @@ function About() {
             <div class="container">
 
                 <article>
+                    <h2>Project Description</h2>
                     <p>This sample project exists as a playground for experimenting with different styling tools and techniques.</p>
 
+                    <h2>Tools Used</h2>
                     <p>Tools used related to the subject matter:</p>
                     <ul>
                         <li><a target="_blank" href="https://sass-lang.com/">SASS</a></li>
                         <li><a target="_blank" href="https://getbootstrap.com/">Bootstrap 4.3</a></li>
                     </ul>
 
-                    <p>Style resources:</p>
-                    <ul>
-                        <li><a target="_blank" href="http://smacss.com/">SMACSS</a></li>
-                    </ul>
-
-                    <p>Other tools used:</p>
+                    <p>Other Tools Used:</p>
                     <ul>
                         <li><a target="_blank" href="https://reactjs.org/">React</a></li>
                         <li><a target="_blank" href="https://github.com/facebook/create-react-app">create-react-app</a></li>
                         <li><a target="_blank" href="https://github.com/ReactTraining/react-router#readme">react-router</a></li>
                     </ul>
 
-                    <p>Learning Exercises</p>
+                    <p>Additional Learning Resources:</p>
                     <ul>
-                        <li>...</li>
+                        <li><a target="_blank" href="http://smacss.com/">SMACSS</a></li>
+                    </ul>
+
+                    <h2>Learning Exercises</h2>
+                    <ul class="list-group">
+
+                        <li class="list-group-item">
+                            <p>Eliminate the duplicate `.page-content` selector in the scaffolding file.</p>
+                            <p><em>Use nesting.</em></p>
+                            <p><a target="_blank" href="https://sass-lang.com/documentation/style-rules#nesting">SASS Nesting</a></p>
+                        </li>
+
+                        <li class="list-group-item">
+                            <p>Use variables to set the background of the navigation section background and page title background.</p>
+                            <p><em>Create new variables file and add variables.</em></p>
+                            <p><a target="_blank" href="https://sass-lang.com/documentation/variables">SASS Variables</a></p>
+                        </li>
+
+                        <li class="list-group-item">
+                            <p>Set responsive horizontal padding for navigation secton and page title (15px for xs and sm, 30px for md and lg, 50px for xl), using mobile-first pattern.</p>
+                            <p><em>Use media queries as specified by Bootstrap.</em></p>
+                            <p><a target="_blank" href="https://getbootstrap.com/docs/4.3/layout/overview/#responsive-breakpoints">Bootstrap Responsive Breakpoints</a></p>
+                        </li>
+
+                        <li class="list-group-item">
+                            <p>Eliminate inclusion of unused Bootstrap components.</p>
+                            <p><em>Use and update a copy bootstrap root scss file</em></p>
+                        </li>
+
+                        <li class="list-group-item">
+                            <p>Make the components more rounded.</p>
+                            <p><em>Override the bootstrap variable specifies border radius for components.</em></p>
+                        </li>
                     </ul>
                 </article>
 
