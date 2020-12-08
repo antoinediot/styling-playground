@@ -22,7 +22,7 @@ function About() {
                     <p>Tools used related to the subject matter:</p>
                     <ul>
                         <li><a target="_blank" href="https://sass-lang.com/">SASS</a></li>
-                        <li><a target="_blank" href="https://getbootstrap.com/">Bootstrap 4.3</a></li>
+                        <li><a target="_blank" href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">Bootstrap 4.5.3</a></li>
                     </ul>
 
                     <p>Other Tools Used:</p>
